@@ -1,0 +1,32 @@
+.background {
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #46464600;
+    background-position: center;
+}
+
+.blur {
+    height: 100vh;
+    background-color: #464646b3;
+}
+
+.middlepage {
+    height: 90vh;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
